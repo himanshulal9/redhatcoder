@@ -1,0 +1,189 @@
+/* importing Fonts */
+@font-face {
+  font-family: montserrat-bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: montserrat-medium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: montserrat-regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserrat-semibold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body {
+} */
+
+.navbar {
+  background: linear-gradient(to right, #ec1d1d, #9e0000, #5a0101);
+  padding: 0 !important;
+}
+
+/* banner section */
+
+#banner_section {
+  height: 100%;
+  min-height: 400px;
+  background: #fafade;
+}
+
+/* particle is wrapper of canvas */
+.partical {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+  min-height: 400px;
+}
+
+.canvas_background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#top-head {
+  position: relative;
+  z-index: 2;
+  padding-top: 50px;
+}
+
+.top-title {
+  color: #e60707;
+  font-family: "Signika", cursive;
+}
+
+.top-description {
+  font-size: 1.45rem !important;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+}
+
+/* header ends */
+
+/* main# starts */
+
+.stack_circle {
+  background: red;
+  border-radius: 100%;
+}
+
+.stack_back {
+  background: white;
+  color: #9e0000;
+}
+
+.section_title {
+  font-family: montserrat-bold;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(221, 2, 2);
+  margin-bottom: 50px;
+}
+
+/* section service */
+.tittle-card {
+  font-family: montserrat-regular;
+  color: #303036;
+  margin-bottom: 15px;
+}
+
+/* about-section */
+.about-section {
+  background: #fafade;
+  padding: 40px 0;
+}
+
+.img-wrap {
+  width: 100%;
+  height: 100%;
+  min-height: 297px;
+  background-image: linear-gradient(to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(160, 7, 27, 0.73)),
+    url("../images/student-849825_640.jpg");
+}
+
+.heading-sec {
+  font-family: montserrat-medium;
+  font-size: 32px;
+  font-weight: 400;
+  color: #ec0707;
+  text-align: center;
+}
+
+.description {
+  font-family: montserrat-regular;
+  color: #303036;
+  font-size: 18px;
+}
+
+/* contact section  */
+.contact-section {
+  background: #ffffff;
+}
+
+/* form colors */
+/* label color */
+.input-field label,
+textarea label {
+  color: #ec0707 !important;
+}
+
+/* label focus color */
+.input-field input[type="text"]:focus+label,
+.input-field input[type="phone"]:focus+label,
+textarea:focus+label {
+  color: #ec0707 !important;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus,
+textarea:focus,
+.input-field input[type="phone"]:focus {
+  border-bottom: 1px solid rgb(245, 5, 5) !important;
+  box-shadow: 0 1px 0 0 rgb(245, 5, 5) !important;
+}
+
+/* valid color */
+.input-field input[type="text"].valid,
+.input-field input[type="phone"].valid,
+textarea.valid {
+  border-bottom: 1px solid rgb(243, 5, 5) !important;
+  box-shadow: 0 1px 0 0 rgb(243, 5, 5) !important;
+}
+
+/* invalid color */
+.input-field input[type="text"].invalid,
+.input-field input[type="phone"].invalid,
+textarea.invalid {
+  border-bottom: 1px solid rgb(243, 5, 5) !important;
+  box-shadow: 0 1px 0 0 rgb(243, 5, 5) !important;
+}
+
+/* footer section */
+.social-icon {
+  color: white;
+  margin-left: 5px;
+}
+
+.page-footer,
+.footer-copyright {
+  background: linear-gradient(to right, #ec0707, #9e0000, #5a0101);
+  color: white;
+}
